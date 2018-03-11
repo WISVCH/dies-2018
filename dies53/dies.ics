@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+PRODID:-//53ste Dies Natalis Commissie der W.I.S.V. 'Christiaan Huygens'//WebWepWeb CH-agenda iCalendar Generator//NL
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:CH Agenda
+X-WR-TIMEZONE:Europe/Amsterdam
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+BEGIN:DAYLIGHT
+DTSTART:19810329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZOFFSETFROM=+0100
+TZOFFSETTO=+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART=19961027T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZOFFSETFROM=+0200
+TZOFFSETTO=+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ORGANIZER;CN="Dies Commissie der W.I.S.V. 'Christiaan Huygens'":MAILTO:dies@ch.tudelft.nl
+DTSTART;TZID=Europe/Amsterdam:20100301T143000
+DTEND;TZID=Europe/Amsterdam:20100301T160000
+TRANSP:TRANSPARENT
+ATTACH;FMTTYPE=text/html:https://ch.tudelft.nl/index.php?page=agenda&id=802
+DESCRIPTION;LANGUAGE=en:The opening of the Dies Week will traditionally tak
+ e place at the Snijderszaal, where several speakers will be invited to tel
+ l a beautiful IlleCHal story.
+DESCRIPTION;LANGUAGE=nl:De opening van de Diesweek zal traditiegetrouw plaa
+ tsvinden in de Snijderszaal, waar een aantal sprekers uitgenodigd zullen w
+ orden om een mooi IlleCHaal verhaal te komen houden.
+LOCATION:
+SUMMARY;LANGUAGE=en:Dies Kick-off
+SUMMARY;LANGUAGE=nl:Dies Opening
+UID:https://ch.tudelft.nl/index.php?page=agenda&id=802
+DTSTAMP:20100222T010246
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Dies Commissie der W.I.S.V. 'Christiaan Huygens'":MAILTO:dies@ch.tudelft.nl
+DTSTART;TZID=Europe/Amsterdam:20100301T163000
+DTEND;TZID=Europe/Amsterdam:20100301T183000
+TRANSP:TRANSPARENT
+ATTACH;FMTTYPE=text/html:https://ch.tudelft.nl/index.php?page=agenda&id=803
+DESCRIPTION;LANGUAGE=en:All members, sisters and cousins assosiation of CH 
+ will get the opportunity offered to congratulate the CH board with the 53r
+ d anniversary of the CH Dies during the reception.
+DESCRIPTION;LANGUAGE=nl:Alle leden, zusjes en nichtjes van CH zullen de mog
+ elijkheid aangeboden krijgen om het Bestuur te feliciteren met de 53e verj
+ aardag van CH tijdens de Diesreceptie.
+LOCATION:
+SUMMARY;LANGUAGE=en:Dies Reception
+SUMMARY;LANGUAGE=nl:Dies Receptie
+UID:https://ch.tudelft.nl/index.php?page=agenda&id=803
+DTSTAMP:20100222T010246
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Dies Commissie der W.I.S.V. 'Christiaan Huygens'":MAILTO:dies@ch.tudelft.nl
+DTSTART;TZID=Europe/Amsterdam:20100301T193000
+DTEND;TZID=Europe/Amsterdam:20100301T220000
+TRANSP:TRANSPARENT
+ATTACH;FMTTYPE=text/html:https://ch.tudelft.nl/index.php?page=agenda&id=810
+DESCRIPTION;LANGUAGE=en:Come along after the reception to the Dies dinner. 
+ Where you can talk about all the upcomming illeCHal activities in the upco
+ ming week.
+DESCRIPTION;LANGUAGE=nl:Kom na de receptie gezellig mee naar het diner, waa
+ ronder het genot van een drankje en een heerlijk driegangen menu alvast vo
+ oruitgeblikt kan worden op de mooie IlleCHale activiteiten die nog komen z
+ ullen.
+LOCATION:
+SUMMARY:Dies Diner
+UID:https://ch.tudelft.nl/index.php?page=agenda&id=810
+DTSTAMP:20100222T010246
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Dies Commissie der W.I.S.V. 'Christiaan Huygens'":MAILTO:dies@ch.tudelft.nl
+DTSTART;TZID=Europe/Amsterdam:20100302T163000
+DTEND;TZID=Europe/Amsterdam:20100302T210000
+TRANSP:TRANSPARENT
+ATTACH;FMTTYPE=text/html:https://ch.tudelft.nl/index.php?page=agenda&id=808
+DESCRIPTION;LANGUAGE=en:Put your game face on and go clothed in your best m
+ ob-outfit and win from rest of the criminal world in this Underground Poke
+ r Tournament! Do you know to survive this poker-war to or will you be bluf
+ fed under the table by the godfathers of CH? Do not forget to subscribe fo
+ r the Chinese buffet that will be provided in the /Pub.
+DESCRIPTION;LANGUAGE=nl:Zet je pokerface op en ga in maffia-outfit de strij
+ d aan met de rest van het criminele circuit in dit Underground Pokertoerno
+ oi! Weet jij dit pokergeweld te overleven of laat je je onder de tafel blu
+ ffen door de godfathers van CH? Vergeet je ook niet in te schrijven voor h
+ et Chinees buffet dat verzorgd zal worden in de /Pub.
+LOCATION:
+SUMMARY;LANGUAGE=en:Underground Poker Tournament
+SUMMARY;LANGUAGE=nl:Underground Pokertournooi
+UID:https://ch.tudelft.nl/index.php?page=agenda&id=808
+DTSTAMP:20100222T010246
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Dies Commissie der W.I.S.V. 'Christiaan Huygens'":MAILTO:dies@ch.tudelft.nl
+DTSTART;TZID=Europe/Amsterdam:20100302T200000
+DTEND;TZID=Europe/Amsterdam:20100302T235500
+TRANSP:TRANSPARENT
+ATTACH;FMTTYPE=text/html:https://ch.tudelft.nl/index.php?page=agenda&id=811
+DESCRIPTION;LANGUAGE=en:\: Feel to drink your loss away, or just need a nic
+ e IlleCHal cocktail? Come for 1 euro a drink of the delicious cocktails mi
+ xed by Mixology. So good, it should be illeCHal.
+DESCRIPTION;LANGUAGE=nl:Zin om je verlies weg te drinken, of gewoon behoeft
+ e aan een lekker IlleCHaal gestookte cocktail? Kom dan voor 1 euro per dra
+ nkje genieten van de heerlijke cocktails van Mixology. Zo lekker, het zou 
+ verboden moeten worden.
+LOCATION:
+SUMMARY;LANGUAGE=en:Cocktailnight
+SUMMARY;LANGUAGE=nl:Cocktailavond
+UID:https://ch.tudelft.nl/index.php?page=agenda&id=811
+DTSTAMP:20100222T010246
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Dies Commissie der W.I.S.V. 'Christiaan Huygens'":MAILTO:dies@ch.tudelft.nl
+DTSTART;TZID=Europe/Amsterdam:20100303T123000
+DTEND;TZID=Europe/Amsterdam:20100303T133000
+TRANSP:TRANSPARENT
+ATTACH;FMTTYPE=text/html:https://ch.tudelft.nl/index.php?page=agenda&id=812
+DESCRIPTION;LANGUAGE=en:After all those IlleCHal activities, you will be pu
+ nished today! You will wake up in prison.. But never mind! There is a wond
+ erful time in jail waiting for you in the basement of the faculty prison w
+ here a dilicious lunch is served. Tickets are on sale at CH.
+DESCRIPTION;LANGUAGE=nl:Na al die IlleCHale activiteiten van dinsdag kon he
+ t ook niet anders dan fout met je aflopen. Je wordt tot je grote schrik wa
+ kker in de gevangenis.. Maar niet getreurd! Er staat een heerlijk gevangen
+ ismaal op je te wachten in de kelder van de facultaire gevangenis. Kaartje
+ s zijn te koop op CH.
+LOCATION:
+SUMMARY;LANGUAGE=en:Jail House Meal
+SUMMARY;LANGUAGE=nl:Gevangenismaal
+UID:https://ch.tudelft.nl/index.php?page=agenda&id=812
+DTSTAMP:20100222T010246
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Dies Commissie der W.I.S.V. 'Christiaan Huygens'":MAILTO:dies@ch.tudelft.nl
+DTSTART;TZID=Europe/Amsterdam:20100303T180000
+DTEND;TZID=Europe/Amsterdam:20100303T200000
+TRANSP:TRANSPARENT
+ATTACH;FMTTYPE=text/html:https://ch.tudelft.nl/index.php?page=agenda&id=813
+DESCRIPTION;LANGUAGE=en:Once in prison you will be subjected to a severe cr
+ oss-examination, also known as the dreaded swampdouche. Connect an allianc
+ e with a fellow prisoner and join the battle with the rest!
+DESCRIPTION;LANGUAGE=nl:Eenmaal in de gevangenis wordt je onderworpen aan e
+ en zwaar kruisverhoor, dat ook wel bekend staat als de gevreesde derriequi
+ z. Sluit een alliantie met je medegevangenen en ga de strijd aan met de re
+ st!
+LOCATION:
+SUMMARY;LANGUAGE=en:/Pub Quiz\: Cross Trial
+SUMMARY;LANGUAGE=nl:/Pub Quiz\: Kruisverhoor
+UID:https://ch.tudelft.nl/index.php?page=agenda&id=813
+DTSTAMP:20100222T010246
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Dies Commissie der W.I.S.V. 'Christiaan Huygens'":MAILTO:dies@ch.tudelft.nl
+DTSTART;TZID=Europe/Amsterdam:20100304T153000
+DTEND;TZID=Europe/Amsterdam:20100304T180000
+TRANSP:TRANSPARENT
+ATTACH;FMTTYPE=text/html:https://ch.tudelft.nl/index.php?page=agenda&id=814
+DESCRIPTION;LANGUAGE=en:This university-wide activity to get the opportunit
+ y to win your freedom back by being the first one crossing the finish line
+ . Who is the fastest, but also knows to hold all his beer inside him?\nThe
+  Beer Mile is an open activity to take place at the old engineering area. 
+ The Beer Mile is a race where each participant at the start ad fundum a be
+ er and then run for about 400 meters (1/4 mile), ad fundum another beer an
+ d a lap runs, and so on, until your total of one mile. The person who has 
+ the fastest time, is the winner.\nSounds simple? you must still follow thi
+ s rules\: participants have their first beer before they have completely d
+ runk before the may (continue to) run. Deviation from the trail is not per
+ mitted and is penalized by an extra round of running, like pieces in an ap
+ propriate place.\nParticipation in the Beer Mile costs 2 euro, you can reg
+ ister at the registration desk near the trail or at CH, where you get a vo
+ ucher for fries. This fries can later be claimed at the Escape Lounge. if 
+ there is enough interest there will be several rounds take place.
+DESCRIPTION;LANGUAGE=nl:In deze TU-brede activiteit krijg je de mogelijkhei
+ d om je vrijheid terug te winnen door als eerste over de finishlijn te kom
+ en. Wie is het snelst, maar weet ook al zijn bier binnen te houden?\nDe Be
+ ermile is een openactiviteit die plaats zal vinden op het oude Bouwkundete
+ rrein. De Beermile is een race waar elke deelnemer bij de start een biertj
+ e moet adten en vervolgens een rondje van ca. 400m rent, weer een biertje 
+ adt en een rondje rent, en zo door, tot dat je in totaal 1600 meter (een m
+ ijl) hebt gerend. De persoon die dit het snelst doet is de winnaar. \nKlin
+ kt simpel? Je moet je nog wel aan de volgende spelregels zien te houden\: 
+ deelnemers moeten hun biertje eerst helemaal opgedronken hebben voordat ze
+  (weer) mogen beginnen met rennen. Afwijken van het parcours is niet toege
+ staan, en wordt bestraft met het rennen van een extra rondje, net als brok
+ ken op een niet daarvoor bestemde plek. \nDeelname aan de Beermile kost 2 
+ euro, je kunt je inschrijven bij de inschrijfbalie in de buurt van het par
+ cours of op CH, waarbij je ook een consumptiebon uitgereikt krijgt voor pa
+ tat. Deze bon kun je later inleveren bij de Ontsnappingslounge later op di
+ ee avond. Indien er genoeg animo is zullen er meerdere rondes plaatsvinden
+ .
+LOCATION:
+SUMMARY:DDB\: De Delftse Beermile
+UID:https://ch.tudelft.nl/index.php?page=agenda&id=814
+DTSTAMP:20100222T010246
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Dies Commissie der W.I.S.V. 'Christiaan Huygens'":MAILTO:dies@ch.tudelft.nl
+DTSTART;TZID=Europe/Amsterdam:20100304T180000
+DTEND;TZID=Europe/Amsterdam:20100304T230000
+TRANSP:TRANSPARENT
+ATTACH;FMTTYPE=text/html:https://ch.tudelft.nl/index.php?page=agenda&id=815
+DESCRIPTION;LANGUAGE=en:Come exhausted from the Beermile and just relax in 
+ the Escape Lounge, where you will have the opportunity to drink and eat, p
+ lay games and other IlleCHal activities to practice. Also, winners of Gotc
+ ha and the BeerMile will be announced. The evening will end with a movie.
+DESCRIPTION;LANGUAGE=nl:Kom uitgeput van je vlucht even bijkomen in de Onts
+ nappingslounge, waar je onder andere de mogelijkheid geboden zal worden om
+  wat te drinken en te eten, spelletjes te spelen en andere IlleCHale prakt
+ ijken te beoefenen. Ook zullen de winnaars van GotCHa en de Beermile gehul
+ digd worden. De avond zal afgesloten worden met een film.
+LOCATION:
+SUMMARY:Gangsters Lounge
+UID:https://ch.tudelft.nl/index.php?page=agenda&id=815
+DTSTAMP:20100222T010246
+END:VEVENT
+BEGIN:VEVENT
+ORGANIZER;CN="Dies Commissie der W.I.S.V. 'Christiaan Huygens'":MAILTO:dies@ch.tudelft.nl
+DTSTART;TZID=Europe/Amsterdam:20100305T080000
+DTEND;TZID=Europe/Amsterdam:20100305T230000
+TRANSP:TRANSPARENT
+ATTACH;FMTTYPE=text/html:https://ch.tudelft.nl/index.php?page=agenda&id=816
+DESCRIPTION;LANGUAGE=en:Is it getting al little dangerous here in Delft? Th
+ e morning program is currently not clear, but at the end of the day we wil
+ l enjoy floating around in a tropical paradise, called the Tiki-bad! There
+  are only a limited number of places, so please subscribe quickly at CH!
+DESCRIPTION;LANGUAGE=nl:Wordt het jou in Delft ook allemaal een beetje te h
+ eet onder je voeten? Het ochtendprogramma staat op het moment nog niet vas
+ t, maar aan het eind van de dag zullen we heerlijk ronddobberen in het tro
+ pische paradijs, genaamd\: het Tiki-bad! Er zijn maar een beperkt aantal p
+ lekken, dus schrijf je snel in op CH!
+LOCATION:
+SUMMARY;LANGUAGE=en:Tour
+SUMMARY;LANGUAGE=nl:Excursie
+UID:https://ch.tudelft.nl/index.php?page=agenda&id=816
+DTSTAMP:20100222T010246
+END:VEVENT
+END:VCALENDAR

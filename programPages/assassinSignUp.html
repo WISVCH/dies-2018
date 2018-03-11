@@ -1,0 +1,41 @@
+<form id="signUpForm">
+    <div class="input-group">
+        <span class="input-group-addon" id="sizing-addon">
+            <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+        </span>
+        <input id="name" type="text" class="form-control" placeholder="Full name" aria-describedby="sizing-addon1">
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon" id="sizing-addon">
+            <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+        </span>
+        <input id="mailAddress" type="text" class="form-control" placeholder="Email address" aria-describedby="sizing-addon1">
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon" id="sizing-addon">
+            <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+        </span>
+        <input id="phone" type="text" class="form-control" placeholder="Phone number" aria-describedby="sizing-addon1">
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon" id="sizing-addon">
+            <span class="glyphicon glyphicon-open-file" aria-hidden="true"></span>
+        </span>
+        <input id="photoUploadBar" type="text" class="form-control" placeholder="Your photo" aria-describedby="sizing-addon1" readonly/>
+    </div>
+    <div class="btn-group">
+        <button type="button" class="btn btn-primary" onclick="assassinSignUp()">Sign Up!</button>
+    </div>
+    <input id="photoUpload" type="file" style="visibility:hidden;"/>
+</form>
+<script>
+    $(document).ready(function() {
+        $('#photoUploadBar').click(function () {
+            $('#photoUpload').click();
+            $('#photoUploadBar').blur();
+        });
+        $('#photoUpload').change(function () {
+            $('#photoUploadBar').val($('#photoUpload').val());
+        });
+    });
+</script>

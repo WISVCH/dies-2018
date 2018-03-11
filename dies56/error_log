@@ -1,0 +1,95 @@
+[03-Nov-2012 23:28:40 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/ranking.php on line 9
+[03-Nov-2012 23:28:40 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/ranking.php on line 9
+[03-Nov-2012 23:29:29 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/ranking.php on line 9
+[03-Nov-2012 23:29:29 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/ranking.php on line 9
+[03-Nov-2012 23:33:03 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/patric1q/public_html/diestest/ranking.php on line 14
+[03-Nov-2012 23:41:59 UTC] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/patric1q/public_html/diestest/ranking.php on line 20
+[04-Nov-2012 00:28:33 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/patric1q/public_html/diestest/game.php on line 176
+[04-Nov-2012 00:39:39 UTC] PHP Parse error:  syntax error, unexpected T_ELSE in /home/patric1q/public_html/diestest/game.php on line 180
+[04-Nov-2012 11:15:14 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:15:14 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:15:14 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:15:14 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:15:14 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:15:14 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:15:14 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:15:14 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:10 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:11 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:13 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:13 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:13 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:13 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:13 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:13 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:13 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:13 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 11:16:35 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/game.php on line 115
+[04-Nov-2012 14:33:43 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/server.php on line 26
+[04-Nov-2012 14:34:11 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/server.php on line 26
+[04-Nov-2012 14:34:22 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/server.php on line 26
+[04-Nov-2012 14:35:05 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/server.php on line 26
+[04-Nov-2012 14:35:20 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/server.php on line 26
+[04-Nov-2012 14:36:12 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/patric1q/public_html/diestest/server.php on line 26
+[04-Nov-2012 15:11:32 UTC] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/patric1q/public_html/diestest/wedstrijd.php on line 128
+[04-Nov-2012 15:13:35 UTC] PHP Fatal error:  Call to undefined function alert() in /home/patric1q/public_html/diestest/wedstrijd.php on line 126
+[04-Nov-2012 15:17:46 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/patric1q/public_html/diestest/wedstrijd.php on line 127
+[04-Nov-2012 15:18:56 UTC] PHP Warning:  sort() expects parameter 1 to be array, string given in /home/patric1q/public_html/diestest/wedstrijd.php on line 127
+[04-Nov-2012 15:18:56 UTC] PHP Warning:  sort() expects parameter 1 to be array, string given in /home/patric1q/public_html/diestest/wedstrijd.php on line 128
+[04-Nov-2012 15:18:56 UTC] PHP Warning:  sort() expects parameter 1 to be array, string given in /home/patric1q/public_html/diestest/wedstrijd.php on line 127
+[04-Nov-2012 15:18:56 UTC] PHP Warning:  sort() expects parameter 1 to be array, string given in /home/patric1q/public_html/diestest/wedstrijd.php on line 128
+[04-Nov-2012 18:45:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patric1q/public_html/diestest/index.php on line 117
+[04-Nov-2012 19:01:18 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/patric1q/public_html/diestest/index.php on line 118
+[04-Nov-2012 19:01:44 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/patric1q/public_html/diestest/index.php on line 118
+[04-Nov-2012 19:01:46 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/patric1q/public_html/diestest/index.php on line 118
+[04-Nov-2012 19:13:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/patric1q/public_html/diestest/index.php on line 71
+[04-Nov-2012 22:21:57 UTC] PHP Parse error:  syntax error, unexpected '[' in /home/patric1q/public_html/diestest/index.php on line 84
+[04-Nov-2012 22:33:43 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/patric1q/public_html/diestest/index.php on line 85
+[04-Nov-2012 22:33:46 UTC] PHP Catchable fatal error:  Object of class DateTime could not be converted to string in /home/patric1q/public_html/diestest/index.php on line 85
+[17-Nov-2012 10:13:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/patric1q/public_html/diestest/wedstrijd.php on line 73
+[18-Nov-2012 18:35:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/admin.php:156) in /home/patric1q/public_html/diestest/admin.php on line 165
+[18-Nov-2012 18:35:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/admin.php:156) in /home/patric1q/public_html/diestest/admin.php on line 166
+[18-Nov-2012 18:35:08 UTC] PHP Fatal error:  Call to undefined function pg_query() in /home/patric1q/public_html/diestest/admin.php on line 168
+[18-Nov-2012 18:36:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:1) in /home/patric1q/public_html/diestest/data.php on line 10
+[18-Nov-2012 18:36:12 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:1) in /home/patric1q/public_html/diestest/data.php on line 11
+[18-Nov-2012 18:36:12 UTC] PHP Fatal error:  Call to undefined function pg_query() in /home/patric1q/public_html/diestest/data.php on line 13
+[18-Nov-2012 18:36:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:1) in /home/patric1q/public_html/diestest/data.php on line 11
+[18-Nov-2012 18:36:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:1) in /home/patric1q/public_html/diestest/data.php on line 12
+[18-Nov-2012 18:36:42 UTC] PHP Fatal error:  Call to undefined function pg_query() in /home/patric1q/public_html/diestest/data.php on line 14
+[18-Nov-2012 18:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:1) in /home/patric1q/public_html/diestest/data.php on line 11
+[18-Nov-2012 18:36:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:1) in /home/patric1q/public_html/diestest/data.php on line 12
+[18-Nov-2012 18:36:44 UTC] PHP Fatal error:  Call to undefined function pg_query() in /home/patric1q/public_html/diestest/data.php on line 14
+[18-Nov-2012 18:36:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:1) in /home/patric1q/public_html/diestest/data.php on line 11
+[18-Nov-2012 18:36:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:1) in /home/patric1q/public_html/diestest/data.php on line 12
+[18-Nov-2012 18:36:46 UTC] PHP Fatal error:  Call to undefined function pg_query() in /home/patric1q/public_html/diestest/data.php on line 14
+[18-Nov-2012 18:36:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:1) in /home/patric1q/public_html/diestest/data.php on line 11
+[18-Nov-2012 18:36:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:1) in /home/patric1q/public_html/diestest/data.php on line 12
+[18-Nov-2012 18:36:47 UTC] PHP Fatal error:  Call to undefined function pg_query() in /home/patric1q/public_html/diestest/data.php on line 14
+[18-Nov-2012 18:37:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:2) in /home/patric1q/public_html/diestest/data.php on line 3
+[18-Nov-2012 18:37:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:2) in /home/patric1q/public_html/diestest/data.php on line 4
+[18-Nov-2012 18:37:08 UTC] PHP Fatal error:  Call to undefined function pg_query() in /home/patric1q/public_html/diestest/data.php on line 16
+[18-Nov-2012 18:37:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:2) in /home/patric1q/public_html/diestest/data.php on line 3
+[18-Nov-2012 18:37:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/patric1q/public_html/diestest/data.php:2) in /home/patric1q/public_html/diestest/data.php on line 4
+[18-Nov-2012 18:37:09 UTC] PHP Fatal error:  Call to undefined function pg_query() in /home/patric1q/public_html/diestest/data.php on line 16
+[18-Nov-2012 18:51:20 UTC] PHP Catchable fatal error:  Object of class ExcelWriter could not be converted to string in /home/patric1q/public_html/diestest/admin.php on line 185
