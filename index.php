@@ -178,7 +178,7 @@ require('dies61/serverHandlers/database.php');
                 <div class="photos">
                     <?php
                     $dirname = "uploads/";
-                    $images = glob($dirname."*.JPG");
+                    $images = glob($dirname."*.png");
 
                     foreach($images as $image) {
                     echo '<img class="myPhotos" src="'.$image.'" />';
