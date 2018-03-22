@@ -9,6 +9,7 @@
   <style>
   body {
     margin: 0;
+    --main-color: rgb(64,224,208);
   }
   header {
     background-image: linear-gradient(to bottom, #3c3c3c 0%, #000 100%);
@@ -26,11 +27,16 @@
     color: white;
     font-size: 32px;
   }
+  @media (max-width: 850px) {
+    nav {
+      display: none;
+    }
+  }
   .title {
-    color: rgb(64,224,208);
+    color: var(--main-color);
     font-size: 40px;
   }
-  main section div, .centered {
+  main section > div, .centered {
     max-width: 1200px;
     margin: auto;
   }
@@ -40,7 +46,7 @@
   }
 
   .cheers, h2 {
-    color: rgb(64,224,208);
+    color: var(--main-color);
     margin: 0;
     font-weight: 100;
     text-align: center;
@@ -56,7 +62,7 @@
   }
 
   .intro > div {
-    background-image: url("images/cheers.png");
+    background-image: url("images-optimized/cheers.png");
     background-position: center;
     background-size: 50%;
     background-repeat: no-repeat;
@@ -71,6 +77,90 @@
     display: flex;
     flex-direction: column;
     flex: 1;
+  }
+  .actual-photos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .actual-photos > div {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+  }
+  .photo-columns {
+    display: flex;
+  }
+  .photo-columns h3 {
+    color: white;
+    font-size: 3vw;
+  }
+  .leaderboard {
+    flex: 1;
+    margin: 0;
+  }
+  .photos {
+    flex: 2;
+  }
+  .leaderboard ol {
+    font-size: 2vw;
+  }
+  #program h4 {
+    text-align: center;
+    display: block;
+    color: var(--main-color);
+    font-size: 25px;
+  }
+  #program .days {
+    flex: 1;
+  }
+  #program .extra-info {
+    flex: 2;
+  }
+  #program .days > div > div {
+    display: flex;
+    justify-content: space-around;
+  }
+  #program .content {
+    display: flex;
+  }
+  #program h3 {
+    text-align: center;
+  }
+  .details-info-message + .details-list {
+    display: none;
+  }
+  .details-list, .buy-tickets-now {
+    text-align: center;
+  }
+
+  .shoutouts {
+    display: flex;
+    height: 250px;
+    align-items: center;
+  }
+  .shoutouts h3 {
+    flex: 1;
+    text-align: center;
+    font-size: 3vw;
+  }
+  .committee-members {
+    display: flex;
+    padding-bottom: 50px;
+  }
+  .committee-members > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .committee-members img {
+    border-radius: 50%;
+    width: 80%;
+    margin: auto;
+  }
+  #committee > div {
+    max-width: 100%;
   }
   </style>
 </head>
@@ -100,6 +190,137 @@
     <section id="photo-contest">
       <div>
         <h2>Photo Contest</h2>
+        <div class="photo-columns">
+          <div class="leaderboard">
+            <h3>Leaderboard</h3>
+            <ol>
+              <li>Marleen</li>
+              <li>Daniel</li>
+              <li>Jeroen</li>
+            </ol>
+          </div>
+          <div class="photos">
+            <h3>Photos</h3>
+            <div class="actual-photos">
+              <div><img src="images-optimized/photo-contest/DSC_0115_result.png" width="300" />Marleen</div>
+              <div><img src="images-optimized/photo-contest/DSC_0116_result.png" width="300" />Marleen, Vera and Louise</div>
+              <div><img src="images-optimized/photo-contest/DSC_0121_result.png" width="300" />Yeaass PIE</div>
+              <div><img src="images-optimized/photo-contest/DSC_0124_result.png" width="300" />Daniel</div>
+              <div><img src="images-optimized/photo-contest/DSC_0126_result.png" width="300" />Thomas and Karim</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="program">
+      <div>
+        <h2>Program of DIES 2018</h2>
+        <div class="content">
+          <div class="days">
+            <h3>Event overview</h3>
+            <div>
+              <h4>Monday</h4>
+              <div>
+                <button>Kick off</button>
+                <button>Reception</button>
+                <button>Dinner</button>
+              </div>
+            </div>
+            <div>
+              <h4>Tuesday</h4>
+              <div>
+                <button>Lunch lecture</button>
+                <button>Beer cycling</button>
+              </div>
+            </div>
+            <div>
+              <h4>Wednesday</h4>
+              <div>
+                <button>Special beer night</button>
+              </div>
+            </div>
+            <div>
+              <h4>Thursday</h4>
+              <div>
+                <button>Members lunch</button>
+                <button>Rollerskating</button>
+              </div>
+            </div>
+          </div>
+          <div class="extra-info">
+            <h3>Event details</h3>
+            <div class="event-details">
+              <span class="details-info-message">Click on an event on the left to see more information on the event.</span>
+              <div class="details-list">
+                <h4>Event</h4>
+                <span class="event"></span>
+                <h4>Date / Time</h4>
+                <span class="date"></span>
+                <h4>Location</h4>
+                <span class="location"></span>
+                <div class="price-container">
+                  <h4>Price</h4>
+                  <span class="price"></span>
+                </div>
+                <div class="signup">
+                  <h4>Signup</h4>
+                  <span>You can sign up <a href="https://wisv.ch/cheers">here</a>!</span>
+                </div>
+                <h4>Details</h4>
+                <span class="details"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="buy-tickets-now">
+          <h3>Buy all you tickets at the board now!</h3>
+        </div>
+      </div>
+    </section>
+    <section id="committee">
+      <div>
+        <h2>Committee of DIES 2018</h2>
+        <div class="shoutouts">
+          <h3>Cheers!</h3>
+          <h3>March 6th, Be There or Be Square!</h3>
+        </div>
+        <div class="committee-members">
+          <div>
+            <span>Qualitate Qua</span>
+            <img src="images-optimized/committee/willie.png" />
+            <span>Willie</span>
+          </div>
+          <div>
+            <span>Purchase</span>
+            <img src="images-optimized/committee/vera.png" />
+            <span>Vera</span>
+          </div>
+          <div>
+            <span>Treasurer</span>
+            <img src="images-optimized/committee/marleen.png" />
+            <span>Marleen</span>
+          </div>
+          <div>
+            <span>Chairman</span>
+            <img src="images-optimized/committee/jeroen.png" />
+            <span>Jeroen</span>
+          </div>
+          <div>
+            <span>Secretary</span>
+            <img src="images-optimized/committee/vincent.png" />
+            <span>Vincent</span>
+          </div>
+          <div>
+            <span>Promotion</span>
+            <img src="images-optimized/committee/wietse.png" />
+            <span>Wietse</span>
+          </div>
+          <div>
+            <span>Planning</span>
+            <img src="images-optimized/committee/louise.png" />
+            <span>Louise</span>
+          </div>
+        </div>
       </div>
     </section>
   </main>
@@ -112,7 +333,7 @@
 
     const counter = document.getElementById('counter');
 
-    const diesStartDate = new Date(2018, 2, 26, 8).getTime();
+    const diesStartDate = new Date(2018, 2, 26, 10).getTime();
 
     function updateTime() {
       const currentDate = Date.now();
@@ -136,6 +357,35 @@
     }
     updateTime();
     setInterval(updateTime, 1000);
+
+    const eventDetails = document.querySelector('.details-list');
+    const eventDetailsInfoMessage = document.querySelector('.details-info-message');
+
+    async function initializeEventButtons() {
+      const eventInfo = await (await fetch('program.json')).json();
+
+      for (const button of document.querySelectorAll('#program button')) {
+        button.addEventListener('click', () => {
+          eventDetailsInfoMessage && eventDetailsInfoMessage.remove();
+
+          const event = eventInfo[button.innerText];
+
+          eventDetails.querySelector('.date').innerText = new Date(...event.date).toLocaleString('en-GB', { timeZone: 'UTC' });
+          eventDetails.querySelector('.event').innerText = button.innerText;
+          eventDetails.querySelector('.location').innerText = event.location;
+          eventDetails.querySelector('.details').innerText = event.details;
+
+          eventDetails.querySelector('.price-container').style.display = !!event.price ? "block" : "none";
+          eventDetails.querySelector('.price').innerText = `${event.price},-`;
+
+          eventDetails.querySelector('.signup').style.display = !!event.signup ? "block" : "none";
+
+        });
+      }
+    }
+
+    initializeEventButtons();
+
   </script>
 </body>
 </html>
