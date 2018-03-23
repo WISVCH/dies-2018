@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html class="fsvs">
+
 <head lang="en">
   <meta charset="UTF-8">
   <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Dies 2018</title> 
+  <title>Dies 2018</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
   <header>
     <div class="centered">
       <a href="#" class="title">DIES 2018</a>
-      <nav>
+      <nav id="navigation">
         <a href="#photo-contest">Photo contest</a>
         <a href="#program">Program</a>
         <a href="#committee">Committee</a>
@@ -24,10 +26,14 @@
       <div>
         <h1 class="cheers">Cheers</h1>
         <div id="counter">
-          <div><span class="days"></span> Days</div>
-          <div><span class="hours"></span> Hours</div>
-          <div><span class="minutes"></span> Minutes</div>
-          <div><span class="seconds"></span> Seconds</div>
+          <div>
+            <span class="days"></span> Days</div>
+          <div>
+            <span class="hours"></span> Hours</div>
+          <div>
+            <span class="minutes"></span> Minutes</div>
+          <div>
+            <span class="seconds"></span> Seconds</div>
         </div>
       </div>
     </section>
@@ -45,16 +51,55 @@
           </div>
           <div class="photos">
             <h3>Photos</h3>
-            <div class="actual-photos">
-              <div><img src="images-optimized/photo-contest/DSC_0115_result.png" width="300" />Marleen</div>
-              <div><img src="images-optimized/photo-contest/DSC_0116_result.png" width="300" />Marleen, Vera and Louise</div>
-              <div><img src="images-optimized/photo-contest/DSC_0121_result.png" width="300" />Yeaass PIE</div>
-              <div><img src="images-optimized/photo-contest/DSC_0124_result.png" width="300" />Daniel</div>
-              <div><img src="images-optimized/photo-contest/DSC_0126_result.png" width="300" />Thomas and Karim</div>
+            <div class="centered">
+              <nav id="nav-photos">
+                <a onclick="showPrePreDies()">Pre-Pre Dies</a>
+                <a onclick="showPreDies()">Pre Dies</a>
+                <a onclick="showMonday()">Monday</a>
+                <a onclick="showTuesday()">Tuesday</a>
+                <a onclick="showWednesday()">Wednesday</a>
+                <a onclick="showThursday()">Thursday</a>
+              </nav>
+            </div>
+            <div>
+              <div class="actual-photos" id="pre-pre-dies">
+                <div>
+                  <img src="images-optimized/photo-contest/DSC_0115_result.png" width="250" />Marleen</div>
+                <div>
+                  <img src="images-optimized/photo-contest/DSC_0116_result.png" width="250" />Marleen, Vera and Louise</div>
+                <div>
+                  <img src="images-optimized/photo-contest/DSC_0121_result.png" width="250" />Yeaass PIE</div>
+                <div>
+                  <img src="images-optimized/photo-contest/DSC_0124_result.png" width="250" />Daniel</div>
+                <div>
+                  <img src="images-optimized/photo-contest/DSC_0126_result.png" width="250" />Thomas and Karim</div>
+                <div>
+                  <img src="images-optimized/photo-contest/DSC_0126_result.png" width="250" />Thomas and Karim</div>
+              </div>
+              <div class="actual-photos" id="pre-dies">
+                <div>
+                  <img src="images-optimized/photo-contest/DSC_0115_result.png" width="300" />Marleen</div>
+              </div>
+              <div class="actual-photos" id="monday">
+                <div>
+                  <img src="images-optimized/photo-contest/DSC_0116_result.png" width="250" />Marleen, Vera and Louise</div>
+              </div>
+              <div class="actual-photos" id="tuesday">
+                <div>
+                  <img src="images-optimized/photo-contest/DSC_0124_result.png" width="250" />Daniel</div>
+              </div>
+              <div class="actual-photos" id="wednesday">
+                <div>
+                  <img src="images-optimized/photo-contest/DSC_0126_result.png" width="250" />Thomas and Karim</div>
+                </div>
+              <div class="actual-photos" id="thursday">
+                <div>
+                  <img src="images-optimized/photo-contest/DSC_0121_result.png" width="250" />Yeaass PIE</div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
     </section>
     <section id="program">
       <div>
@@ -108,7 +153,8 @@
                 </div>
                 <div class="signup">
                   <h4>Signup</h4>
-                  <span>You can sign up <a href="https://wisv.ch/cheers">here</a>!</span>
+                  <span>You can sign up
+                    <a href="https://wisv.ch/cheers">here</a>!</span>
                 </div>
                 <h4>Details</h4>
                 <span class="details"></span>
@@ -230,6 +276,53 @@
 
     initializeEventButtons();
 
+    function showPrePreDies() {
+      showNone();
+      var day = document.getElementById("pre-pre-dies");
+      day.style.display = "flex";
+    }
+
+    function showPreDies() {
+      showNone();
+      var day = document.getElementById("pre-dies");
+      day.style.display = "flex";
+    }
+
+    function showMonday() {
+      showNone();
+      var day = document.getElementById("monday");
+      day.style.display = "flex";
+    }
+
+    function showTuesday() {
+      showNone();
+      var day = document.getElementById("tuesday");
+      day.style.display = "flex";
+    }
+
+    function showWednesday() {
+      showNone();
+      var day = document.getElementById("wednesday");
+      day.style.display = "flex";
+    }
+
+    function showThursday() {
+      showNone();
+      var day = document.getElementById("thursday");
+      day.style.display = "flex";
+    }
+
+    function showNone() {
+      var slides = document.getElementsByClassName("actual-photos");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+    }
+
+    showNone();
+    showPrePreDies();
+
   </script>
 </body>
+
 </html>
