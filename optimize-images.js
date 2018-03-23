@@ -7,7 +7,7 @@ const root = path.resolve(process.cwd(), 'images');
 const optimizedImagesRoot = path.resolve(process.cwd(), 'images-optimized');
 const imageOptions = {
   committee: '200x200',
-  ['photo-contest']: '250,scale-down'
+  ['pre-pre-dies']: '250,scale-down'
 };
 
 // Optimize images with ImageOptim

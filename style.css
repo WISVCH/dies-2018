@@ -111,30 +111,6 @@ h3 {
   flex: 3;
 }
 
-#pre-pre-dies {
-  display: flex;
-}
-
-#pre-dies {
-  display: none;
-}
-
-#monday {
-  display: none;
-}
-
-#tuesday {
-  display: none;
-}
-
-#wednesday {
-  display: none;
-}
-
-#thursday {
-  display: none;
-}
-
 #nav-photos {
   cursor: pointer;
 }
