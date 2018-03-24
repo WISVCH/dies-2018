@@ -55,6 +55,12 @@ h2 {
   color: black;
 }
 
+@media (max-width: 850px) {
+  h2 {
+    font-size: 10vw;
+  }
+}
+
 h3 {
   font-size: 2vw;
   text-align: center;
@@ -93,11 +99,55 @@ button:hover {
   display: flex;
   font-size: 3vw;
 }
+@media (max-width: 850px) {
+  #counter {
+    font-size: 5vw;
+  }
+}
 #counter > div {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
+
+.photo-columns {
+  display: flex;
+  flex-wrap: wrap;
+}
+.photo-columns h3 {
+  color: white;
+  font-size: 3vw;
+}
+
+.leaderboard {
+  flex: 1;
+  margin: 0;
+  min-width: 400px;
+}
+.leaderboard ol {
+  font-size: 4vw;
+  margin-left: 50px;
+}
+
+.photos {
+  flex: 2;
+  min-width: 400px;
+}
+@media (max-width: 450px) {
+  .photos {
+    min-width: 100%;
+  }
+}
+.photos nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.photos nav a {
+  font-size: 1vw;
+  margin-right: 1vw;
+}
+
 .actual-photos {
   display: none;
   flex-wrap: wrap;
@@ -108,40 +158,21 @@ button:hover {
   margin: auto;
   text-align: center;
   margin-bottom: 15px;
-}
-@media (max-width: 850px) {
-  .actual-photos img {
-    width: 100px;
-  }
+  margin-right: 5px;
+  min-width: 190px;
 }
 
-.photo-columns {
+#program .content {
   display: flex;
+  flex-wrap: wrap;
 }
-.photo-columns h3 {
-  color: white;
-  font-size: 3vw;
-}
-.leaderboard {
+#program .days {
   flex: 1;
-  margin: 0;
+  min-width: 400px;
 }
-.photos {
+#program .extra-info {
   flex: 2;
-}
-
-.photos nav {
-  display: flex;
-  justify-content: space-around;
-}
-
-.photos nav a {
-  font-size: 1vw;
-  margin-right: 1vw;
-}
-
-.leaderboard ol {
-  font-size: 1.5vw;
+  min-width: 300px;
 }
 #program h4 {
   text-align: center;
@@ -149,18 +180,9 @@ button:hover {
   color: var(--main-color);
   font-size: 25px;
 }
-#program .days {
-  flex: 1;
-}
-#program .extra-info {
-  flex: 2;
-}
 #program .days > div > div {
   display: flex;
   justify-content: space-around;
-}
-#program .content {
-  display: flex;
 }
 #program h3 {
   text-align: center;
@@ -182,8 +204,14 @@ button:hover {
   text-align: center;
   font-size: 3vw;
 }
+
+#committee > div {
+  max-width: 100%;
+}
+
 .committee-members {
   display: flex;
+  flex-wrap: wrap;
   padding-bottom: 50px;
 }
 .committee-members > div {
@@ -191,12 +219,18 @@ button:hover {
   display: flex;
   flex-direction: column;
   text-align: center;
+  min-width: 200px;
+  max-width: 250px;
 }
 .committee-members img {
   border-radius: 50%;
   width: 80%;
   margin: auto;
 }
-#committee > div {
-  max-width: 100%;
+
+@media (max-width: 1400px) {
+  .committee-members > div {
+    min-width: 300px;
+    margin: auto;
+  }
 }
