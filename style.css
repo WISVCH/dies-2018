@@ -1,6 +1,7 @@
 body {
   margin: 0;
   --main-color: rgb(64,224,208);
+  --accent-color: #9E9E9E;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
 }
 header {
@@ -21,7 +22,7 @@ nav a {
 }
 
 @media (max-width: 850px) {
- #navigation {
+  #navigation {
     display: none;
   }
 }
@@ -29,17 +30,16 @@ nav a {
   color: var(--main-color);
   font-size: 40px;
 }
+main section {
+  min-height: 80%;
+}
 main section > div, .centered {
   max-width: 1200px;
   margin: auto;
 }
 
 section:nth-child(2n) {
-  background-color: #73c5bb;
-}
-
-section:nth-child(2n + 1) {
-  background-color: #ffffff;
+  background-color: #a8a8a8;
 }
 
 .cheers, h2 {
@@ -52,28 +52,26 @@ section:nth-child(2n + 1) {
 
 h2 {
   font-size: 5vw;
-  color: black;
 }
 
 h3 {
   font-size: 2vw;
   text-align: center;
-  color: white;
 }
 
 button {
-  border-radius: 10px;
+  border-radius: 4px;
   text-align: center;
   border: 2px solid black;
   background-color: transparent;
   padding: 7px 15px;
   margin-bottom: 10px;
   text-decoration: none;
-  font-size: 20px;
+  font-weight: bold;
 }
 
-button:hover {
-  background-color: var(--main-color);
+button:active {
+  transform: scale(0.9);
 }
 
 .cheers {
@@ -81,10 +79,8 @@ button:hover {
 }
 
 .intro > div {
-  background-image: url("images-optimized/cheers.png");
-  background-position: center;
   background-size: 50%;
-  background-repeat: no-repeat;
+  background: url("images-optimized/cheers.png") no-repeat center;
   margin: auto;
   display: block;
 }
@@ -107,7 +103,6 @@ button:hover {
   flex-direction: column;
   margin: auto;
   text-align: center;
-  margin-bottom: 15px;
 }
 @media (max-width: 850px) {
   .actual-photos img {
@@ -140,6 +135,29 @@ button:hover {
   margin-right: 1vw;
 }
 
+.photos nav :hover {
+  color: var(--main-color);
+}
+
+.photos button {
+  -webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  -o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+  margin: 20px auto;
+  max-width: 180px;
+  color: white;
+  padding: 20px 30px;
+  background-color: var(--main-color);
+  box-shadow: white 0 0 0 0 inset;
+}
+
+.photos button:hover {
+  color: var(--main-color);
+  box-shadow: white 0 0 0 40px inset;
+}
+
 .leaderboard ol {
   font-size: 1.5vw;
 }
@@ -158,6 +176,17 @@ button:hover {
 #program .days > div > div {
   display: flex;
   justify-content: space-around;
+}
+#program .days button {
+  margin: 8px auto;
+  max-width: 120px;
+  color: white;
+  padding: 10px 15px;
+  background-color: var(--accent-color);
+  box-shadow: var(--main-color) 0 0 0 0 inset;
+}
+#program .days button:hover {
+  box-shadow: var(--main-color) 0 0 0 40px inset;
 }
 #program .content {
   display: flex;
@@ -182,6 +211,16 @@ button:hover {
   text-align: center;
   font-size: 3vw;
 }
+@media (max-width: 600px) {
+  .shoutouts {
+    display: flex;
+    flex-direction: column;
+  }
+  .shoutouts h3 {
+    font-size: 6vw;
+  }
+}
+
 .committee-members {
   display: flex;
   padding-bottom: 50px;
@@ -196,6 +235,12 @@ button:hover {
   border-radius: 50%;
   width: 80%;
   margin: auto;
+}
+.committee-members > div > span {
+  color: #757575;
+  font-weight: bold;
+  margin: 16px auto;
+  font-size: 20px;
 }
 #committee > div {
   max-width: 100%;
