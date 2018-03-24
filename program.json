@@ -1,0 +1,48 @@
+{
+  "Kick off": {
+    "date": [2018, 2, 26, 18],
+    "location": "Central hall, EEMCS (EWI)",
+    "details": "The grand kick off of the Dies week 2018"
+  },
+  "Reception": {
+    "date": [2018, 2, 26, 20],
+    "location": "TBA",
+    "details": "The official Dies Natalis reception of 2018"
+  },
+  "Dinner": {
+    "date": [2018, 2, 26, 20],
+    "location": "TBA",
+    "price": 15,
+    "details": "The traditional Dies Dinner to kick off the week in style"
+  },
+  "Lunch lecture": {
+    "date": [2018, 2, 27, 14, 30],
+    "location": "Lecture hall Chip",
+    "details": "A very interesting lecture from a real Cheerleader! This lunch lecture has a broodje Leo included!",
+    "signup": true
+  },
+  "Beer cycling": {
+    "date": [2018, 2, 27, 19, 30],
+    "location": "/Pub",
+    "price": 7.5,
+    "details": "Go with a large bike around Delftse Hout!"
+  },
+  "Special beer night": {
+    "date": [2018, 2, 28, 21],
+    "location": "/Pub",
+    "details": "This is not your typical wednesday evening. Instead, we have some very nice special beers for you! We advice you to have had a good meal before consuming alcohol."
+  },
+  "Members lunch": {
+    "date": [2018, 2, 29, 14, 30],
+    "location": "/Pub",
+    "price": 1,
+    "details": "They members lunch!"
+  },
+  "Rollerskating": {
+    "date": [2018, 2, 29, 19],
+    "enddate": [2018, 2, 29, 22],
+    "location": "Lorre",
+    "price": 5,
+    "details": "This is the opportunity to rollerskate in Lorre! Please make sure to also give your shoe size when signing up!"
+  }
+}
