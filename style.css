@@ -81,7 +81,7 @@ h3 {
   flex: 1;
 }
 .actual-photos {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
 }
 .actual-photos > div {
@@ -109,10 +109,6 @@ h3 {
 }
 .photos {
   flex: 2;
-}
-
-#nav-photos {
-  cursor: pointer;
 }
 
 .photos nav a{

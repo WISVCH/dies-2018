@@ -52,13 +52,13 @@
           <div class="photos">
             <h3>Photos</h3>
             <div class="centered">
-              <nav id="nav-photos">
-                <a onclick="showPrePreDies()">Pre-Pre Dies</a>
-                <a onclick="showPreDies()">Pre Dies</a>
-                <a onclick="showMonday()">Monday</a>
-                <a onclick="showTuesday()">Tuesday</a>
-                <a onclick="showWednesday()">Wednesday</a>
-                <a onclick="showThursday()">Thursday</a>
+              <nav class="nav-photos">
+                <button data-default>Pre-Pre Dies</button>
+                <button>Pre Dies</button>
+                <button>Monday</button>
+                <button>Tuesday</button>
+                <button>Wednesday</button>
+                <button>Thursday</button>
               </nav>
             </div>
             <div>
@@ -299,51 +299,24 @@
 
     initializeEventButtons();
 
-    function showPrePreDies() {
-      showNone();
-      var day = document.getElementById("pre-pre-dies");
-      day.style.display = "flex";
-    }
+    let previousElement;
 
-    function showPreDies() {
-      showNone();
-      var day = document.getElementById("pre-dies");
-      day.style.display = "flex";
-    }
-
-    function showMonday() {
-      showNone();
-      var day = document.getElementById("monday");
-      day.style.display = "flex";
-    }
-
-    function showTuesday() {
-      showNone();
-      var day = document.getElementById("tuesday");
-      day.style.display = "flex";
-    }
-
-    function showWednesday() {
-      showNone();
-      var day = document.getElementById("wednesday");
-      day.style.display = "flex";
-    }
-
-    function showThursday() {
-      showNone();
-      var day = document.getElementById("thursday");
-      day.style.display = "flex";
-    }
-
-    function showNone() {
-      var days = document.getElementsByClassName("actual-photos");
-      for (i = 0; i < days.length; i++) {
-        days[i].style.display = "none";
+    function showImagesForButton(button) {
+      const imagesElement = document.getElementById(button.innerText.toLowerCase().replace(' ', '-'));
+      if (previousElement) {
+        previousElement.style.display = 'none';
       }
+      previousElement = imagesElement;
+      imagesElement.style.display = 'flex';
     }
 
-    showPrePreDies();
+    for (const button of document.querySelectorAll('.nav-photos button')) {
+      button.addEventListener('click', () => {
+        showImagesForButton(button);
+      });
+    }
 
+    showImagesForButton(document.querySelector('.nav-photos button[data-default]'))
   </script>
 </body>
 
