@@ -17,7 +17,7 @@ header div {
 }
 nav a {
   color: white;
-  font-size: 32px;
+  font-size: 27px;
 }
 
 @media (max-width: 850px) {
@@ -73,7 +73,7 @@ h3 {
 
 #counter {
   display: flex;
-  font-size: 4vw;
+  font-size: 3vw;
 }
 #counter > div {
   display: flex;
@@ -108,7 +108,7 @@ h3 {
   margin: 0;
 }
 .photos {
-  flex: 3;
+  flex: 2;
 }
 
 #nav-photos {
@@ -119,6 +119,11 @@ h3 {
   font-size: 1vw;
   margin-right: 1vw;
 }
+
+.photos nav :hover{
+  color: var(--main-color);
+}
+
 .leaderboard ol {
   font-size: 1.5vw;
 }
