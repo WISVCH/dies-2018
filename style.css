@@ -259,6 +259,9 @@ button:active {
   .shoutouts h3 {
     font-size: 6vw;
   }
+  .committee-members {
+    max-width: 100px;
+  }
 }
 
 .committee-members {
@@ -276,7 +279,7 @@ button:active {
 }
 .committee-members img {
   border-radius: 50%;
-  width: 80%;
+  width: 40%;
   margin: auto;
 }
 
