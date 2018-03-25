@@ -52,11 +52,19 @@ section:nth-child(2n) {
 
 h2 {
   font-size: 5vw;
+  color: black;
+}
+
+@media (max-width: 850px) {
+  h2 {
+    font-size: 10vw;
+  }
 }
 
 h3 {
   font-size: 2vw;
   text-align: center;
+  color: white;
 }
 
 button {
@@ -77,10 +85,16 @@ button:active {
 .cheers {
   font-size: 20vw;
 }
+/* 4k screens are this wide :O */
+@media (min-width: 2000px) {
+  .cheers {
+    font-size: 350px;
+  }
+}
 
 .intro > div {
-  background-size: 50%;
   background: url("images-optimized/cheers.png") no-repeat center;
+  background-size: 50%;
   margin: auto;
   display: block;
 }
@@ -89,52 +103,71 @@ button:active {
   display: flex;
   font-size: 3vw;
 }
+@media (max-width: 850px) {
+  #counter {
+    font-size: 5vw;
+  }
+}
 #counter > div {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
-.actual-photos {
-  display: none;
-  flex-wrap: wrap;
-}
-.actual-photos > div {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  text-align: center;
-}
-@media (max-width: 850px) {
-  .actual-photos img {
-    width: 100px;
-  }
-}
 
 .photo-columns {
   display: flex;
+  flex-wrap: wrap;
 }
 .photo-columns h3 {
   color: white;
   font-size: 3vw;
 }
+
 .leaderboard {
   flex: 1;
   margin: 0;
+  min-width: 400px;
 }
+@media (max-width: 400px) {
+  .leaderboard {
+    min-width: 100%;
+  }
+}
+.leaderboard ol {
+  font-size: 4vw;
+  margin-left: 50px;
+}
+/* 4k screens are this wide :O */
+@media (min-width: 2000px) {
+  .leaderboard ol {
+    font-size: 75px;
+  }
+}
+
 .photos {
   flex: 2;
+  min-width: 400px;
 }
-
+@media (max-width: 450px) {
+  .photos {
+    min-width: 100%;
+  }
+}
 .photos nav {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
-
 .photos nav a {
   font-size: 1vw;
   margin-right: 1vw;
 }
 
+.actual-photos {
+  display: none;
+  flex-wrap: wrap;
+  text-align: center;
+}
 .photos nav :hover {
   color: var(--main-color);
 }
@@ -158,20 +191,50 @@ button:active {
   box-shadow: white 0 0 0 40px inset;
 }
 
-.leaderboard ol {
-  font-size: 1.5vw;
+.actual-photos > div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 15px;
+  margin-right: 5px;
+  min-width: 190px;
+}
+.actual-photos img {
+  width: 250px;
+}
+@media (max-width: 520px), (min-width: 800px) and (max-width: 910px) {
+  .actual-photos > div {
+    width: 100%;
+  }
+  .actual-photos img {
+    margin: auto;
+  }
+}
+
+
+#program .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+#program .days {
+  flex: 1;
+  min-width: 400px;
+}
+@media (max-width: 400px) {
+  #program .days {
+    min-width: 100%;
+  }
+}
+#program .extra-info {
+  flex: 2;
+  min-width: 300px;
 }
 #program h4 {
   text-align: center;
   display: block;
   color: var(--main-color);
   font-size: 25px;
-}
-#program .days {
-  flex: 1;
-}
-#program .extra-info {
-  flex: 2;
 }
 #program .days > div > div {
   display: flex;
@@ -211,6 +274,11 @@ button:active {
   text-align: center;
   font-size: 3vw;
 }
+
+#committee > div {
+  max-width: 100%;
+}
+
 @media (max-width: 600px) {
   .shoutouts {
     display: flex;
@@ -223,25 +291,27 @@ button:active {
 
 .committee-members {
   display: flex;
+  flex-wrap: wrap;
   padding-bottom: 50px;
+  justify-content: center;
 }
 .committee-members > div {
   flex: 1;
   display: flex;
   flex-direction: column;
   text-align: center;
+  min-width: 200px;
+  max-width: 250px;
 }
 .committee-members img {
   border-radius: 50%;
   width: 80%;
   margin: auto;
 }
-.committee-members > div > span {
-  color: #757575;
-  font-weight: bold;
-  margin: 16px auto;
-  font-size: 20px;
-}
-#committee > div {
-  max-width: 100%;
+
+@media (max-width: 1400px) {
+  .committee-members > div {
+    min-width: 300px;
+    margin: auto;
+  }
 }
