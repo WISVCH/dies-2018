@@ -162,6 +162,10 @@ button:hover {
   min-width: 190px;
 }
 
+.actual-photos img {
+  width: 250px;
+}
+
 #program .content {
   display: flex;
   flex-wrap: wrap;
