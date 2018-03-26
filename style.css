@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  height: 100%;
   --main-color: rgb(64,224,208);
   --accent-color: #9E9E9E;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
@@ -30,12 +31,16 @@ nav a {
   color: var(--main-color);
   font-size: 40px;
 }
-main section {
-  min-height: 80%;
+
+
+section {
+  min-height: 80vh;
 }
+
 main section > div, .centered {
   max-width: 1200px;
   margin: auto;
+  /* min-height: 80%; */
 }
 
 section:nth-child(2n) {
