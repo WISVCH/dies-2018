@@ -25,7 +25,6 @@ async function optimizeImages() {
           fs.copySync(file, path.resolve(optimizedImagesRoot, relativeFile));
         } else {
           const imageCategory = path.relative(root, file).split(path.sep)[0];
-          console.log(imageCategory)
           const options = imageOptions[imageCategory] || 'full';
 
           superagent.post(`https://im2.io/nddfzrzzpk/${options}`)
