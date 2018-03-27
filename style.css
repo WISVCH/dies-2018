@@ -34,13 +34,12 @@ nav a {
 
 
 section {
-  min-height: 80vh;
+  min-height: 90vh;
 }
 
 main section > div, .centered {
   max-width: 1200px;
   margin: auto;
-  /* min-height: 80%; */
 }
 
 section:nth-child(2n) {
@@ -98,10 +97,21 @@ button:active {
 }
 
 .intro > div {
-  background: url("images-optimized/cheers.png") no-repeat center;
-  background-size: 50%;
   margin: auto;
   display: block;
+}
+
+.intro::after {
+  content: "";
+  background: url("images-optimized/cheers.png") no-repeat center;
+  background-size: 33%;
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; 
+  z-index: -1;
+  position: absolute;
 }
 
 #counter {
@@ -133,14 +143,22 @@ button:active {
   margin: 0;
   min-width: 400px;
 }
-@media (max-width: 400px) {
+
+.leaderboard ol {
+  font-size: 1vw;
+  margin-left: 50px;
+}
+
+@media (max-width: 500px) {
   .leaderboard {
     min-width: 100%;
   }
-}
-.leaderboard ol {
-  font-size: 4vw;
-  margin-left: 50px;
+  .leaderboard ol{
+    font-size: 25px; 
+  }
+  h3 {
+    font-size: 6vw;
+  }
 }
 /* 4k screens are this wide :O */
 @media (min-width: 2000px) {
@@ -217,6 +235,9 @@ button:active {
   }
 }
 
+#begun-text {
+  padding-top: 200px
+}
 
 #program .content {
   display: flex;
