@@ -239,6 +239,18 @@ button:active {
   padding-top: 200px
 }
 
+#monday img{
+  height: 300px;
+  width: auto;
+}
+
+@media (max-width: 400px) {
+  #monday img{
+    height: auto;
+    width: 80%;
+  } 
+}
+
 #program .content {
   display: flex;
   flex-wrap: wrap;
