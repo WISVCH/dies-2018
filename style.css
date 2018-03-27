@@ -32,7 +32,6 @@ nav a {
   font-size: 40px;
 }
 
-
 section {
   min-height: 90vh;
 }
@@ -191,6 +190,11 @@ button:active {
   flex-wrap: wrap;
   text-align: center;
 }
+
+.actual-photos div {
+  margin: 5px;
+}
+
 .photos nav :hover {
   color: var(--main-color);
 }
