@@ -9,16 +9,19 @@ const imageOptions = {
   committee: '200x200',
   prepredies: '250,scale-down',
   predies: '250,scale-down',
-  monday: '250,scale-down'
+  monday: '250,scale-down',
+  tuesday: '250,scale-down',
+  wednesday: '250,scale-down',
+  thursday: '250,scale-down'
 };
 
 // Optimize images with ImageOptim
 // Run with `yarn run build optimize-images`
 async function optimizeImages() {
   await new Promise((resolve, reject) => {
-    glob('images/**/*.{jpg,png,svg}', (err, files) => {
+    glob('images/**/*.{jpg,jpeg,png,svg}', (err, files) => {
       for (const file of files) {
-        const relativeFile = file.substring(file.indexOf(path.sep) + 1);
+        const relativeFile = file.substring(file.indexOf('/') + 1);
         fs.ensureDirSync(path.resolve(optimizedImagesRoot, path.dirname(relativeFile)));
 
         if (path.extname(file) === '.svg') {
