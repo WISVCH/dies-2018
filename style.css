@@ -32,6 +32,7 @@ nav a {
   font-size: 40px;
 }
 
+
 section {
   min-height: 90vh;
 }
@@ -190,11 +191,6 @@ button:active {
   flex-wrap: wrap;
   text-align: center;
 }
-
-.actual-photos div {
-  margin: 5px;
-}
-
 .photos nav :hover {
   color: var(--main-color);
 }
@@ -243,17 +239,6 @@ button:active {
   padding-top: 200px
 }
 
-#monday img{
-  height: 300px;
-  width: auto;
-}
-
-@media (max-width: 400px) {
-  #monday img{
-    height: auto;
-    width: 80%;
-  } 
-}
 
 #program .content {
   display: flex;
