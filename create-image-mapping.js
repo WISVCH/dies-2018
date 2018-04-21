@@ -1,42 +1,19 @@
-var fs = require("fs");
-const path = require("path");
+const fs = require('fs');
+const path = require('path');
+const glob = require('glob');
 
-const root = path.resolve(process.cwd(), "images");
+const cwd = path.resolve(process.cwd(), 'images');
+const images = {};
 
-function createMapping() {
-  // read all folders
-  var res = [];
-  fs.readdirSync(root, function(err, subfolders) {
-    if (err) {
-      console.log("error in reading directory");
-      return;
-    }
+for (const imageFile of glob.sync('**/*', {cwd})) {
+  const day = path.dirname(imageFile);
 
-    // for each subfolder
-    subfolders.forEach(function(folder) {
-      if (err) {
-        console.log("error in reading directory");
-        return;
-      }
+  if (day === '.') {
+    continue;
+  }
 
-      // if it is a directry
-      if (!folder.includes(".")) {
-        // console.log(root + path.sep + folder);
-        fs.readdirSync(root + path.sep + folder, function(err, filenames) {
-            
-            filenames.forEach( function(filename) {
-                console.log("written file: " + filename);
-                res.push(filename);
-            });
-        });
-      }
-    });
-  });
-
-  fs.writeFileSync('image-map.json', JSON.stringify(res), (err) => {
-    if (err) throw err;
-    console.log('The file has been saved!');
-  });
+  images[day] = images[day] || [];
+  images[day].push(imageFile);
 }
 
-createMapping();
+fs.writeFileSync('image-map.json', JSON.stringify(images));
