@@ -35,8 +35,7 @@
         <div class="photo-columns">
           <div class="leaderboard">
             <h3>Winner</h3>
-              <h4>Bastiaan!
-              Thanks everyone for joining </h4>
+            <h4>Bastiaan! Thanks everyone for joining </h4>
           </div>
           <div class="photos">
             <h3>Photos</h3>
@@ -214,9 +213,6 @@
     updateTime();
     setInterval(updateTime, 1000);
 
-    const eventDetails = document.querySelector('.details-list');
-    const eventDetailsInfoMessage = document.querySelector('.details-info-message');
-
     async function initializeEventButtons() {
       const eventInfo = await (await fetch('program.json')).json();
 
@@ -269,35 +265,21 @@
 
     showImagesForButton(document.querySelector('.nav-photos button[data-default]'))
 
-    function getImagesForDay(day, preload) {
-      var compressedFolder = "images-optimized/" + day + "/"; 
-      var bigFolder = "images/" + day + "/";
-      
-      $.ajax({
-        url : compressedFolder,
-        success: function (data) {
-            $(data).find("a").attr("href", function (i, val) {
-                if( val.match(/\.(jpe?g|png|gif)$/) ) {
-                    // if you want src of data src
-                    if(preload){
-                    var s = "<div> <img src='" + val +"'> </div>";
-                    } else {
-                    var s = "<div> <img data-src='" + val +"'> </div>";
-                    }
-                    $('#' + day).append(s);
-                } 
-            });
+    async function initializeImages() {
+      var dayPhotos = await (await fetch('image-map.json')).json();
+
+      for (var day in dayPhotos) {
+        var photos = dayPhotos[day];
+
+        for (var photo in photos) {
+          var src = photos[photo]
+          var s = "<div> <img src='images-optimized/" + src + "'> <div>";
+          document.querySelector('#' + day).innerHTML += s;
         }
-      });
+      }
     }
 
-    getImagesForDay("prepredies", true)
-    getImagesForDay("predies", false)
-    getImagesForDay("monday", false)
-    getImagesForDay("tuesday", false)
-    getImagesForDay("wednesday", false)
-    getImagesForDay("thursday", false)
-
+    initializeImages();
   </script>
 </body>
 
