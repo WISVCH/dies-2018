@@ -4,11 +4,12 @@ const glob = require('glob');
 
 const cwd = path.resolve(process.cwd(), 'images');
 const images = {};
+const exclude_folders = ["committee"];
 
 for (const imageFile of glob.sync('**/*', {cwd})) {
   const day = path.dirname(imageFile);
 
-  if (day === '.' || day === "committee") {
+  if (day === '.' || exclude_folders.indexOf(day) > -1) {
     continue;
   }
   
