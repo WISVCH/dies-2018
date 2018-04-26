@@ -8,11 +8,12 @@ const images = {};
 for (const imageFile of glob.sync('**/*', {cwd})) {
   const day = path.dirname(imageFile);
 
-  if (day === '.') {
+  if (day === '.' || day === "committee") {
     continue;
   }
-
+  
   images[day] = images[day] || [];
+  
   images[day].push(imageFile);
 }
 
