@@ -263,20 +263,30 @@
       });
     }
 
-    showImagesForButton(document.querySelector('.nav-photos button[data-default]'))
-
     async function initializeImages() {
-      var dayPhotos = await (await fetch('image-map.json')).json();
+      const dayPhotos = await (await fetch('image-map.json')).json();
 
       for (var day in dayPhotos) {
-        var photos = dayPhotos[day];
+        const dayContainer = document.getElementById(day);
+        const photos = dayPhotos[day];
 
-        for (var photo in photos) {
-          var src = photos[photo]
-          var s = "<div> <img src='" + src + "'> <div>";
-          document.querySelector('#' + day).innerHTML += s;
+        for (const src of photos) {
+          const link = document.createElement('a');
+          link.href = src.replace('-optimized', '');
+          link.target = '_blank';
+
+          const container = document.createElement('div');
+          const image = document.createElement('img');
+          image.dataset.src = src;
+          container.appendChild(image);
+
+          link.appendChild(container);
+
+          dayContainer.appendChild(link);
         }
       }
+
+      showImagesForButton(document.querySelector('.nav-photos button[data-default]'));
     }
 
     initializeImages();
